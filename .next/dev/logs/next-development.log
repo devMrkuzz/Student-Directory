@@ -1,17 +1,7 @@
-[00:00:17.146] Server  LOG     
-[00:00:17.149] Server  LOG        We detected TypeScript in your project and reconfigured your tsconfig.json file for you.
-[00:00:17.150] Server  LOG        The following suggested values were added to your tsconfig.json. These values can be changed to fit your project's needs:
-
-[00:00:17.152] Server  LOG        	- include was updated to add '.next/dev/types/**/*.ts'
-[00:00:17.152] Server  LOG     
-[00:00:17.153] Server  LOG        The following mandatory changes were made to your tsconfig.json:
-
-[00:00:17.153] Server  LOG        	- jsx was set to react-jsx (next.js uses the React automatic runtime)
-[00:00:17.153] Server  LOG     
-[00:00:21.284] Server  LOG      ✓ Ready in 13.9s
-[00:00:24.407] Server  LOG      ○ Compiling / ...
-[00:00:40.825] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:40.825] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:04.122] Server  LOG      ✓ Ready in 1101ms
+[00:00:08.839] Server  LOG      ○ Compiling / ...
+[00:00:21.514] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:22.009] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -46,6 +36,443 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:00:41.169] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:41.169] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:41.169] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765404443902}
+[00:00:22.009] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:22.009] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:22.009] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406581224}
+[00:00:45.302] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/directory color: rgb(120, 120, 120) color: inherit {"dp":"/directory","o":"http://localhost:3000/directory","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406604680}
+[00:00:45.302] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <Suspense name="directory/" fallback={<Fragment>}>
+      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/directory" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+              <SegmentViewNode type="page" pagePath="/Student/a...">
+                <SegmentTrieNode>
+                <DirectoryPage>
+                  <DirectoryClientPage>
+                    <main className="min-h-scre...">
+                      <header>
+                      <div className="max-w-6xl ...">
+                        <div>
+                        <div>
+                        <div className="grid grid-...">
+                          <LinkComponent href="/profile/1">
+>                           <a
+>                             ref={function}
+>                             onClick={function onClick}
+>                             onMouseEnter={function onMouseEnter}
+>                             onTouchStart={function onTouchStart}
+>                             href="/profile/1"
+>                           >
+                              <UserCard user={{id:"1",name:"S...", ...}}>
+                                <Card className="p-6 hover:...">
+                                  <div data-slot="card" className="bg-card te...">
+                                    <div>
+                                    <div>
+                                    <div className="space-y-2 ...">
+>                                     <a
+>                                       href="mailto:sarah.johnson@company.com"
+>                                       className="flex items-center gap-2 text-xs text-muted-foreground hover:text-pr..."
+>                                       onClick={function onClick}
+>                                     >
+                                    ...
+                          ...
+                      ...
+              ...
+            ...
+
+[00:00:45.302] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:02:25.080] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile/3 color: rgb(120, 120, 120) color: inherit {"dp":"/profile/[id]","o":"http://localhost:3000/profile/3","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406704540}
+[00:02:46.797] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/directory color: rgb(120, 120, 120) color: inherit {"dp":"/directory","o":"http://localhost:3000/directory","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406726258}
+[00:03:33.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:33.195] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/directory" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Student/a...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{filter:"invert(0)"}}
+                        >
+                  ...
+
+[00:03:33.195] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:03:33.195] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/directory","route":"/directory"}
+[00:03:33.195] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/directory color: rgb(120, 120, 120) color: inherit {"dp":"/directory","o":"http://localhost:3000/directory","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406772646}
+[00:03:33.378] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <Suspense name="directory/" fallback={<Fragment>}>
+      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/directory" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+              <SegmentViewNode type="page" pagePath="/Student/a...">
+                <SegmentTrieNode>
+                <DirectoryPage>
+                  <DirectoryClientPage>
+                    <main className="min-h-scre...">
+                      <header>
+                      <div className="max-w-6xl ...">
+                        <div>
+                        <div>
+                        <div className="grid grid-...">
+                          <LinkComponent href="/profile/1">
+>                           <a
+>                             ref={function}
+>                             onClick={function onClick}
+>                             onMouseEnter={function onMouseEnter}
+>                             onTouchStart={function onTouchStart}
+>                             href="/profile/1"
+>                           >
+                              <UserCard user={{id:"1",name:"S...", ...}}>
+                                <Card className="p-6 hover:...">
+                                  <div data-slot="card" className="bg-card te...">
+                                    <div>
+                                    <div>
+                                    <div className="space-y-2 ...">
+>                                     <a
+>                                       href="mailto:sarah.johnson@company.com"
+>                                       className="flex items-center gap-2 text-xs text-muted-foreground hover:text-pr..."
+>                                       onClick={function onClick}
+>                                     >
+                                    ...
+                          ...
+                      ...
+              ...
+            ...
+
+[00:03:33.378] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:03:33.378] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/directory" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="/Student/a...">
+            <SegmentTrieNode>
+            <DirectoryPage>
+              <DirectoryClientPage>
+                <main className="min-h-scre...">
+                  <header>
+                  <div className="max-w-6xl ...">
+                    <div>
+                    <div>
+                    <div className="grid grid-...">
+                      <LinkComponent href="/profile/1">
+                        <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                          <UserCard user={{id:"1",name:"S...", ...}}>
+                            <Card className="p-6 hover:...">
++                             <div
++                               data-slot="card"
++                               className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shadow-s..."
++                             >
+                      ...
+                  ...
+          ...
+        ...
+
+[00:03:35.670] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406775128}
+[00:03:38.470] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/directory color: rgb(120, 120, 120) color: inherit {"dp":"/directory","o":"http://localhost:3000/directory","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406777929}
+[00:03:39.917] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile/1 color: rgb(120, 120, 120) color: inherit {"dp":"/profile/[id]","o":"http://localhost:3000/profile/1","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406779380}
+[00:03:41.477] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/directory color: rgb(120, 120, 120) color: inherit {"dp":"/directory","o":"http://localhost:3000/directory","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406780937}
+[00:04:43.310] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:43.460] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/directory" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Student/a...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{filter:"invert(0)"}}
+                        >
+                  ...
+
+[00:04:43.460] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:43.460] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/directory","route":"/directory"}
+[00:04:43.460] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/directory color: rgb(120, 120, 120) color: inherit {"dp":"/directory","o":"http://localhost:3000/directory","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406842917}
+[00:04:43.610] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <Suspense name="directory/" fallback={<Fragment>}>
+      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/directory" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+              <SegmentViewNode type="page" pagePath="/Student/a...">
+                <SegmentTrieNode>
+                <DirectoryPage>
+                  <DirectoryClientPage>
+                    <main className="min-h-scre...">
+                      <header>
+                      <div className="max-w-6xl ...">
+                        <div>
+                        <div>
+                        <div className="grid grid-...">
+                          <LinkComponent href="/profile/1">
+>                           <a
+>                             ref={function}
+>                             onClick={function onClick}
+>                             onMouseEnter={function onMouseEnter}
+>                             onTouchStart={function onTouchStart}
+>                             href="/profile/1"
+>                           >
+                              <UserCard user={{id:"1",name:"S...", ...}}>
+                                <Card className="p-6 hover:...">
+                                  <div data-slot="card" className="bg-card te...">
+                                    <div>
+                                    <div>
+                                    <div className="space-y-2 ...">
+>                                     <a
+>                                       href="mailto:sarah.johnson@company.com"
+>                                       className="flex items-center gap-2 text-xs text-muted-foreground hover:text-pr..."
+>                                       onClick={function onClick}
+>                                     >
+                                    ...
+                          ...
+                      ...
+              ...
+            ...
+
+[00:04:43.610] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:04:43.610] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/directory" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="/Student/a...">
+            <SegmentTrieNode>
+            <DirectoryPage>
+              <DirectoryClientPage>
+                <main className="min-h-scre...">
+                  <header>
+                  <div className="max-w-6xl ...">
+                    <div>
+                    <div>
+                    <div className="grid grid-...">
+                      <LinkComponent href="/profile/1">
+                        <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                          <UserCard user={{id:"1",name:"S...", ...}}>
+                            <Card className="p-6 hover:...">
++                             <div
++                               data-slot="card"
++                               className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shadow-s..."
++                             >
+                      ...
+                  ...
+          ...
+        ...
+
+[00:04:45.553] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:04:45.763] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/directory" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Student/a...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html
+                          lang="en"
+-                         style={{filter:"invert(0)"}}
+                        >
+                  ...
+
+[00:04:45.763] Browser ERROR   In HTML, %s cannot be a descendant of <%s>.
+This will cause a hydration error.%s <a> a 
+
+  ...
+    <Suspense name="directory/" fallback={<Fragment>}>
+      <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/directory" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} ...>
+              <SegmentViewNode type="page" pagePath="/Student/a...">
+                <SegmentTrieNode>
+                <DirectoryPage>
+                  <DirectoryClientPage>
+                    <main className="min-h-scre...">
+                      <header>
+                      <div className="max-w-6xl ...">
+                        <div>
+                        <div>
+                        <div className="grid grid-...">
+                          <LinkComponent href="/profile/1">
+>                           <a
+>                             ref={function}
+>                             onClick={function onClick}
+>                             onMouseEnter={function onMouseEnter}
+>                             onTouchStart={function onTouchStart}
+>                             href="/profile/1"
+>                           >
+                              <UserCard user={{id:"1",name:"S...", ...}}>
+                                <Card className="p-6 hover:...">
+                                  <div data-slot="card" className="bg-card te...">
+                                    <div>
+                                    <div>
+                                    <div className="space-y-2 ...">
+>                                     <a
+>                                       href="mailto:sarah.johnson@company.com"
+>                                       className="flex items-center gap-2 text-xs text-muted-foreground hover:text-pr..."
+>                                       onClick={function onClick}
+>                                     >
+                                    ...
+                          ...
+                      ...
+              ...
+            ...
+
+[00:04:45.763] Browser ERROR   <%s> cannot contain a nested %s.
+See this log for the ancestor stack trace. a <a>
+[00:04:45.763] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered HTML didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectBoundary>
+      <RedirectErrorBoundary router={{...}}>
+        <InnerLayoutRouter url="/directory" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+          <SegmentViewNode type="page" pagePath="/Student/a...">
+            <SegmentTrieNode>
+            <DirectoryPage>
+              <DirectoryClientPage>
+                <main className="min-h-scre...">
+                  <header>
+                  <div className="max-w-6xl ...">
+                    <div>
+                    <div>
+                    <div className="grid grid-...">
+                      <LinkComponent href="/profile/1">
+                        <a ref={function} onClick={function onClick} onMouseEnter={function onMouseEnter} ...>
+                          <UserCard user={{id:"1",name:"S...", ...}}>
+                            <Card className="p-6 hover:...">
++                             <div
++                               data-slot="card"
++                               className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shadow-s..."
++                             >
+                      ...
+                  ...
+          ...
+        ...
+
+[00:04:45.763] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:04:45.763] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/directory","route":"/directory"}
+[00:04:45.763] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/directory color: rgb(120, 120, 120) color: inherit {"dp":"/directory","o":"http://localhost:3000/directory","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406845226}
+[00:04:49.277] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406848730}
+[00:04:50.678] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/directory color: rgb(120, 120, 120) color: inherit {"dp":"/directory","o":"http://localhost:3000/directory","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406850136}
+[00:04:54.898] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profile/1 color: rgb(120, 120, 120) color: inherit {"dp":"/profile/[id]","o":"http://localhost:3000/profile/1","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406854359}
+[00:04:56.202] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/directory color: rgb(120, 120, 120) color: inherit {"dp":"/directory","o":"http://localhost:3000/directory","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1765406855662}
+[00:07:10.904] Server  LOG      ✓ Compiled in 245ms
+[00:08:04.791] Server  LOG      ✓ Compiled in 137ms
+[00:09:40.800] Server  LOG      ✓ Compiled in 147ms
+[00:10:15.045] Server  LOG      ✓ Compiled in 214ms
+[00:10:29.531] Server  LOG      ✓ Compiled in 150ms
+[00:11:07.195] Server  LOG      ✓ Compiled in 149ms
+[00:11:09.998] Server  LOG      ✓ Compiled in 170ms
+[00:11:53.845] Server  LOG      ✓ Compiled in 136ms
