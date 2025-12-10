@@ -1,8 +1,8 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
@@ -18,10 +18,12 @@ export default function Home() {
       <div className="min-h-screen flex items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="max-w-2xl mx-auto text-center space-y-8">
           <div className="space-y-4">
-            <h2 className="text-5xl sm:text-6xl font-bold text-primary text-pretty">Student/Employee Directory</h2>
+            <h2 className="text-5xl sm:text-6xl font-bold text-primary text-pretty">
+              Student/Employee Directory
+            </h2>
             <p className="text-lg sm:text-xl text-muted-foreground text-balance">
-              Find and connect with students and employees. Search by name, role, or department to discover profiles and
-              contact information.
+              Find and connect with students and employees. Search by name,
+              role, or department to discover profiles and contact information.
             </p>
           </div>
 
@@ -43,5 +45,5 @@ export default function Home() {
         </div>
       </footer>
     </main>
-  )
+  );
 }
